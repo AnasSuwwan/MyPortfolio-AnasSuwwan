@@ -1,0 +1,281 @@
+ 
+ body
+  {
+      background-color: #222222;
+      background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+  }@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+.name{
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px  #8cb3d9, 0 0 15px  #8cb3d9, 0 0 20px  #8cb3d9, 0 0 40px  #6699cc, 0 0 60px  #538cc6, 0 0 10px #4080bf, 0 0 98px #3973ac;
+  color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #555;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #8cb3d9, 0 0 15px #8cb3d9, 0 0 20px #8cb3d9, 0 0 40px #6699cc, 0 0 60px #538cc6, 0 0 10px #4080bf, 0 0 98px #3973ac;
+    color: #fff6a9;
+  }
+}
+
+
+
+ .progress 
+          {
+            height: 26px;
+          }
+     .navLinks  
+          {
+            width: 4rem;
+          }
+     .logo{
+          width: 100px;
+          height: 50px;
+          border-radius: 10px;
+          object-fit: scale-down;
+          }
+     .ico{  
+          font-size: 25px;
+          padding-top: 5px;
+
+        }
+     .row1 
+          {
+            height:500px
+          }
+    .imm1
+          {
+            
+            width:100%;
+            height: 500px;
+          } 
+    .ana  
+          {
+            margin: auto;
+            margin-bottom: 50px;
+          }
+    .barr1
+          {
+            width:75%
+          }
+    .barr2
+          {
+            width:60%
+          }
+    .barr3
+          {
+            width:85%
+          }
+    .barr4
+          {
+            width:90%
+          }
+    .barr5
+          {
+            width:70%
+          }
+    .barr6
+          {
+            width:80%
+          }
+  
+    #pro2
+          {
+            background-image: url("online.jpg ");
+            opacity:60%; 
+            height: 324px;
+            width: 100%;
+          }
+    #pro3
+          {
+            background-image: url("cinema.jpg ");
+            opacity:60%;
+            height: 324px;
+            width: 100%; 
+          }
+   .websiteName
+   {
+    text-decoration: none;
+    text-align: center;
+   }
+
+    .farah
+          {
+            height: 255px;
+          }
+    .eiad
+          {
+            height: 258px;
+          }
+    .hosam
+          {
+            height: 259px;
+          }
+    .hosamCard
+          {
+            margin-bottom: 22px;
+          }
+    .sara 
+          {
+            height: 262px;
+          }
+    .saraCard
+          {
+            margin-bottom:22px;
+          }
+    .anasContact
+          {
+            background-image: url(anas2.jpg) ;
+             background-size: cover;
+          }
+    .contact 
+          {
+            margin-left: 56px;
+          }
+    .forLinkedIn
+          {
+             margin-top: 10px;
+          }
+    .buttonLinked
+          {
+           width :11rem;
+            height: 4rem;
+            border-radius: 5px;
+            border: teal;
+          }
+    #MyTeam
+        {
+          margin-top: 185px;
+        }
+    .divcv
+    {
+      margin-left: 200px;
+    }
+    .buttonnp
+          {
+            background-color: transparent;
+             border: transparent;
+             border : 0px;
+           }
+    .buttonnp:hover
+          {
+             border-top:solid black 2px;
+             border-bottom:solid black 2px;
+          }
+    .buttonn
+          {
+            background-color: transparent;
+             border: transparent;
+             border : 0px;
+           }
+      .buttonn:hover
+          {
+            border-top:solid #fff 2px;
+            border-bottom:solid #fff 2px;
+          }
+          .email
+          {
+            color: gray !important;
+          }
+          .email:hover
+          {
+              text-decoration: none;
+              color: blue !important ;
+          }
+        
+     
+
+
+         .ico:hover
+              {
+
+                background-color:transparent; ;
+                color: blue;
+                border-radius: 50% ;
+              }
+          .footernav
+              {
+                color: white;
+              }
+          .footernav:hover
+              {
+                background-color:transparent; ;
+                color: blue;
+              
+                text-decoration: none;
+
+              }
+
+.icon {
+  position: absolute;
+  margin-top: 40px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 25px;
+  width: 90%;
+  height: 10px;
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  animation: arrow 700ms linear infinite;
+}
+
+.arrow::after {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 10px;
+  top: -12px;
+  right: -8px;
+  background-color: #fff;
+  transform: rotate(45deg);
+}
+
+.arrow::before {
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 10px;
+  top: 12px;
+  right: -8px;
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  transform: rotate(-45deg);
+}
+.backhome
+{  margin-top: 150px;
+
+
+}
+footer
+{
+  margin-top: 100px;
+}
